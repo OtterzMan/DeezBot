@@ -24,7 +24,7 @@ async def on_ready():
 '''@client.event
 async def on_message(message):
     if message.content.includes ("dad"):
-        await message.send("TOM HAS NO DAD, WHAT A FATHERLESS CHILD")'''
+        await message.send("TOM HAS NO DAD, WHAT A FATHERLESS CHILD") <--- DIDN'T WORK '''
 
 @client.command()
 async def test(ctx):
@@ -63,4 +63,4 @@ async def deezify(ctx, *, message):
 		await ctx.send (message + "!! more like " + message + "ma BALLS")
 
 
-client.run('OTUxNTgzNjI0ODI4OTQ4NTMw.YiplTw.us-ZQERq6avOKxzGbw27-khKluQ')
+client.run('BOT TOKEN GOES HERE')
